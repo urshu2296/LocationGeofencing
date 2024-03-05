@@ -10,7 +10,7 @@ The geofence monitoring is started with startMonitoring(for:) method of CLLocati
 
 Handling Geofence Events:
 When the user enters or exits the geofence area, the corresponding delegate methods (locationManager(_:didEnterRegion:) and locationManager(_:didExitRegion:)) of CLLocationManagerDelegate are called.
-Inside these methods, created annotations on the map to indicate the user's entry or exit from the geofence area
+Inside these methods, created annotations on the map to indicate the user's entry or exit from the geofence area and  schedule local notifications to provide feedback to the user.
 
 Handling App Termination: (verifying significant location)
 -  track the app termination state using a boolean variable (isAppTerminated) and set it to true in the applicationWillTerminate method of VC.
