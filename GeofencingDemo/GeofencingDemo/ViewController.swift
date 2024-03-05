@@ -53,8 +53,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         locationManager?.startMonitoringSignificantLocationChanges()
         // trigger to check are we able to get location after killing app
         NotificationCenter.default.addObserver(self, selector: #selector(appWillTerminate), name: UIApplication.willTerminateNotification, object: nil)
-        
-        
+         
     }
 }
 
@@ -92,10 +91,7 @@ extension ViewController: CLLocationManagerDelegate {
                 
             }
         }
-        
     }
-    
-    
 }
 
 // METHODS
