@@ -1,25 +1,36 @@
 <?xml version="1.0"?>
-<gpx version="1.1" creator="Xcode">
-    <wpt lat="37.33181965" lon="-122.03043332">
-        <name>Hilton Garden Inn Cupertino</name>
-        <time>2014-09-24T14:55:37Z</time>
+<gpx version="1.1" creator="YourAppName">
+    <wpt lat="40.7128" lon="-74.0060">
+        <name>Geofence Center</name>
     </wpt>
-    <wpt lat="37.33138836" lon="-122.03072798">
-        <name>Apple Park</name>
-        <time>2014-09-24T14:55:45Z</time>
+    <wpt lat="40.7127" lon="-74.0059">
+        <name>Point 1</name>
     </wpt>
-    
-    <wpt lat="37.33102000" lon="-122.03073800">
-           <name>Waypoint 1</name>
-           <time>2014-09-24T14:55:50Z</time>
-       </wpt>
-       <wpt lat="37.33065100" lon="-122.03074800">
-           <name>Waypoint 2</name>
-           <time>2014-09-24T14:55:55Z</time>
-       </wpt>
-       <wpt lat="37.33028300" lon="-122.03075900">
-           <name>Waypoint 3</name>
-           <time>2014-09-24T14:56:00Z</time>
-       </wpt>
+    <wpt lat="40.7126" lon="-74.0058">
+        <name>Point 2</name>
+    </wpt>
+    <wpt lat="40.7126" lon="-74.0057">
+        <name>Point 3</name>
+    </wpt>
+    <wpt lat="40.7127" lon="-74.0056">
+        <name>Point 4</name>
+    </wpt>
+    <wpt lat="40.7128" lon="-74.0056">
+        <name>Point 5</name>
+    </wpt>
+    <wpt lat="40.7129" lon="-74.0057">
+        <name>Point 6</name>
+    </wpt>
+    <wpt lat="40.7130" lon="-74.0058">
+        <name>Point 7</name>
+    </wpt>
+    <wpt lat="40.7130" lon="-74.0059">
+        <name>Point 8</name>
+    </wpt>
+    <wpt lat="40.7129" lon="-74.0060">
+        <name>Point 9</name>
+    </wpt>
+    <wpt lat="40.7128" lon="-74.0060">
+        <name>Point 10</name>
+    </wpt>
 </gpx>
-

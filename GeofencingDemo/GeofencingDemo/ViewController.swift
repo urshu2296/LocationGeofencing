@@ -50,10 +50,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
         locationManager?.delegate = self
         mapView.delegate = self
         locationManager?.requestWhenInUseAuthorization()
-        locationManager?.startMonitoringSignificantLocationChanges()
         // trigger to check are we able to get location after killing app
         NotificationCenter.default.addObserver(self, selector: #selector(appWillTerminate), name: UIApplication.willTerminateNotification, object: nil)
-         
+        
     }
 }
 
@@ -80,7 +79,7 @@ extension ViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else { return }
-        print("Latitude: \(location.coordinate.latitude), Longitude: \(location.coordinate.longitude)")
+        debugPrint(location.coordinate)
         if isAppTerminated {
             scheduleLocalNotification(message: "App Terminated Still receieving callbacks", needToRepeat: true)
         }
@@ -92,7 +91,6 @@ extension ViewController: CLLocationManagerDelegate {
             
         }
     }
-
 }
 
 // METHODS
@@ -113,17 +111,20 @@ extension ViewController {
     }
     
     private func startMonitoring(location: CLLocationCoordinate2D) {
-        let regionCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 37.33058184, longitude: -122.03060705)
+        let regionCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 40.7128,
+                                                                              longitude: -74.0060)
         let geofenceRegion: CLCircularRegion = CLCircularRegion(
             center: regionCoordinate,
             radius: 200, // Radius in Meter
-            identifier: "apple_park" // unique identifier
+            identifier: "N Tantau Ave" // unique identifier
         )
         // This will create a circular area with taking radius from coordinates you mentioned and notifyOnEntry will call when user enters in that area
         geofenceRegion.notifyOnEntry = true
         
         // notifyOnExit will call when user exits from that area
         geofenceRegion.notifyOnExit = true
+        locationManager?.startMonitoringSignificantLocationChanges()
+        
         // Start monitoring
         locationManager?.startMonitoring(for: geofenceRegion)
     }
@@ -153,59 +154,68 @@ extension ViewController {
 }
 
 //MARK: When user enters and exit from regions
+/*
+ If the user's device enters the circular region (inside the 200-meter radius from the center), the didEnterRegion delegate method of the location manager will be called.
+ If the user's device exits the circular region (moves outside the 200-meter radius from the center), the didExitRegion delegate method of the location manager will be called.
+ */
+
 extension ViewController {
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         print(region)
         guard let manager = manager.location?.coordinate, let _ = region as? CLCircularRegion  else {
             return
         }
-        DispatchQueue.main.async {
-            self.createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: manager.latitude,
-                                                                         longitude: manager.longitude), name: "started")
-            
-            self.scheduleLocalNotification(message: "Enters in  your area", needToRepeat: false)
-            
-        }
+        self.createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: manager.latitude,
+                                                                     longitude: manager.longitude), name: "started")
+        
+        self.scheduleLocalNotification(message: "Enters in  your area", needToRepeat: false)
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
         print(region)
+        print("didExitRegion called")
+        
         guard let manager = manager.location?.coordinate, let _ = region as? CLCircularRegion  else {
             return
         }
-        DispatchQueue.main.async {
-            self.createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: manager.latitude,
-                                                                         longitude: manager.longitude), name: "end")
-            
-            self.scheduleLocalNotification(message: "Leaving your area", needToRepeat: false)
-            
-        }
+        self.createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: manager.latitude,
+                                                                     longitude: manager.longitude), name: "end")
+        
+        self.scheduleLocalNotification(message: "Leaving your area", needToRepeat: false)
+        
         
     }
 }
 
 extension ViewController {
     func configureLocation() {
-        let location = locationManager?.location ?? CLLocation(latitude: 37.3352915, longitude: -122.0203281)
-        print(location)
+        let location = locationManager?.location ?? CLLocation(latitude: 37.3352915,
+                                                               longitude: -122.0203281)
         locationManager?.startUpdatingLocation()
+        createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: location.coordinate.latitude,
+                                                                longitude: location.coordinate.longitude), name: "Intial Location")
         setupGeofencing(location: location.coordinate )
-        createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude), name: "Intial Location")
+        
     }
     
-    func createAnnotation(centerLocation: CLLocationCoordinate2D, name: String) {
-        // Create a region with the location and span
-        // Define the span of the region (the zoom level)
+    func createAnnotation(centerLocation: CLLocationCoordinate2D, name: String, needtoZoom: Bool? = false) {
         let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05) // You can adjust these values
         
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: centerLocation.latitude, longitude: centerLocation.longitude), span: span)
-        // Set the region on your map view
-        mapView.setRegion(region, animated: true)
+        
         // Optionally, add an annotation to the location
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: centerLocation.latitude, longitude: centerLocation.longitude)
         annotation.title = name
         mapView.addAnnotation(annotation)
+        
+        // Set the region on your map view without animation
+        UIView.performWithoutAnimation {
+            mapView.setRegion(region, animated: false)
+        }
+        
+        
     }
 }
 
