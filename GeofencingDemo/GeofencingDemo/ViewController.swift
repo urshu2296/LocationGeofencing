@@ -111,13 +111,16 @@ extension ViewController {
     }
     
     private func startMonitoring(location: CLLocationCoordinate2D) {
-        let regionCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 40.7128,
-                                                                              longitude: -74.0060)
+        let regionCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 37.336105,
+                                                                              longitude: -122.000029)//"37.336105" lon="-122.000029">
         let geofenceRegion: CLCircularRegion = CLCircularRegion(
             center: regionCoordinate,
             radius: 200, // Radius in Meter
             identifier: "N Tantau Ave" // unique identifier
         )
+        let circle = MKCircle(center: regionCoordinate, radius: 200)
+        mapView.addOverlay(circle)
+
         // This will create a circular area with taking radius from coordinates you mentioned and notifyOnEntry will call when user enters in that area
         geofenceRegion.notifyOnEntry = true
         
@@ -179,6 +182,7 @@ extension ViewController {
         guard let manager = manager.location?.coordinate, let _ = region as? CLCircularRegion  else {
             return
         }
+
         self.createAnnotation(centerLocation: CLLocationCoordinate2D(latitude: manager.latitude,
                                                                      longitude: manager.longitude), name: "end")
         
@@ -199,12 +203,9 @@ extension ViewController {
         
     }
     
-    func createAnnotation(centerLocation: CLLocationCoordinate2D, name: String, needtoZoom: Bool? = false) {
+    func createAnnotation(centerLocation: CLLocationCoordinate2D, name: String) {
         let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05) // You can adjust these values
-        
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: centerLocation.latitude, longitude: centerLocation.longitude), span: span)
-        
-        // Optionally, add an annotation to the location
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: centerLocation.latitude, longitude: centerLocation.longitude)
         annotation.title = name
@@ -214,8 +215,13 @@ extension ViewController {
         UIView.performWithoutAnimation {
             mapView.setRegion(region, animated: false)
         }
-        
-        
+    }
+    
+    func isSameCoordinate(annotation: CLLocationCoordinate2D, regionPoint: CLLocationCoordinate2D) -> Bool {
+        if (annotation.latitude == regionPoint.latitude) && annotation.longitude == regionPoint.longitude {
+            return true
+        }
+        return false
     }
 }
 
@@ -229,7 +235,7 @@ extension ViewController {
         content.body = message
         content.sound = UNNotificationSound.default
         // You can also set badge and other properties if needed
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: needToRepeat)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2, repeats: needToRepeat)
         let request = UNNotificationRequest(identifier: "yourNotificationIdentifier", content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request) { (error) in
             if let error = error {

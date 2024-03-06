@@ -14,10 +14,10 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "configureLocation()"
-            landmarkType = "7">
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "ViewController"
+            landmarkType = "21">
             <Locations>
                <Location
                   uuid = "6C8CDF39-9017-4F9A-993C-6CEE70DF63AC - 8c9703fde9142a56"
@@ -62,8 +62,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
             landmarkName = "configureLocation()"
             landmarkType = "7">
             <Locations>
@@ -110,8 +110,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "configureLocation()"
             landmarkType = "7">
             <Locations>
@@ -160,115 +160,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
             endingLineNumber = "81"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GeofencingDemo/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "locationManager(_:didEnterRegion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598 - 8ab7440e1a76381e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
-                  moduleName = "GeofencingDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598 - 8ab7440e1a76381e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
-                  moduleName = "GeofencingDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "360">
-               </Location>
-               <Location
-                  uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598 - 8ab7440e1a76381e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
-                  moduleName = "GeofencingDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "664">
-               </Location>
-               <Location
-                  uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598 - 8ab7440e1a76381e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
-                  moduleName = "GeofencingDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "D94D6512-1838-41EF-A1D7-7CEB9DB42598 - 8ab7440e1a76381e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
-                  moduleName = "GeofencingDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "158"
-                  endingLineNumber = "158"
-                  offsetFromSymbolStart = "440">
-               </Location>
-            </Locations>
+            landmarkName = "ViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FD0381D7-52AF-47E6-84E5-F87AF5FA9CCC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "7">
             <Locations>
@@ -317,6 +224,21 @@
                   endingLineNumber = "170"
                   offsetFromSymbolStart = "268">
                </Location>
+               <Location
+                  uuid = "FD0381D7-52AF-47E6-84E5-F87AF5FA9CCC - 7647c14fc107263b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "268">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -330,8 +252,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "7">
             <Locations>
@@ -410,6 +332,96 @@
                   endingLineNumber = "172"
                   offsetFromSymbolStart = "608">
                </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc1072679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc1072679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc1072733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc1072733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc10727d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "D10F15B7-DD68-4F2B-B5A8-4AC0B3BBC36A - 7647c14fc10727d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "608">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -423,8 +435,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "7">
             <Locations>
@@ -458,6 +470,51 @@
                   endingLineNumber = "181"
                   offsetFromSymbolStart = "824">
                </Location>
+               <Location
+                  uuid = "15D3C2D7-7DDA-4963-B598-56312396BCDF - 7647c14fc1072733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "15D3C2D7-7DDA-4963-B598-56312396BCDF - 7647c14fc107186a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+               <Location
+                  uuid = "15D3C2D7-7DDA-4963-B598-56312396BCDF - 7647c14fc107180b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "1124">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -471,8 +528,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "7">
             <Locations>
@@ -506,6 +563,51 @@
                   endingLineNumber = "181"
                   offsetFromSymbolStart = "824">
                </Location>
+               <Location
+                  uuid = "9C7BEA63-960F-4031-9BED-9D8BA7754FE8 - 7647c14fc1072733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "9C7BEA63-960F-4031-9BED-9D8BA7754FE8 - 7647c14fc107186a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+               <Location
+                  uuid = "9C7BEA63-960F-4031-9BED-9D8BA7754FE8 - 7647c14fc107180b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "1124">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -519,8 +621,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "7">
             <Locations>
@@ -554,6 +656,51 @@
                   endingLineNumber = "176"
                   offsetFromSymbolStart = "768">
                </Location>
+               <Location
+                  uuid = "916DA905-2CBA-44B4-958A-C0375A742476 - 7647c14fc10727f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  uuid = "916DA905-2CBA-44B4-958A-C0375A742476 - 7647c14fc107182c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "1060">
+               </Location>
+               <Location
+                  uuid = "916DA905-2CBA-44B4-958A-C0375A742476 - 7647c14fc10718cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didExitRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "1060">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -567,8 +714,8 @@
             filePath = "GeofencingDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "locationManager(_:didEnterRegion:)"
             landmarkType = "7">
             <Locations>
@@ -602,7 +749,210 @@
                   endingLineNumber = "166"
                   offsetFromSymbolStart = "656">
                </Location>
+               <Location
+                  uuid = "1FBA5C2E-4623-4062-A67E-53B20ED5A978 - 8ab7440e1a763e6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "1FBA5C2E-4623-4062-A67E-53B20ED5A978 - 8ab7440e1a763d34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "1FBA5C2E-4623-4062-A67E-53B20ED5A978 - 8ab7440e1a763dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "956">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E5BC530-1AFF-4A21-9C91-31532181E4D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeofencingDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "ViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "1E5BC530-1AFF-4A21-9C91-31532181E4D6 - 8ab7440e1a763f47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1E5BC530-1AFF-4A21-9C91-31532181E4D6 - 8ab7440e1a763eea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1E5BC530-1AFF-4A21-9C91-31532181E4D6 - 8ab7440e1a763e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC3422C5-0697-4041-BC27-0AE0C07D34BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeofencingDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "locationManager(_:didEnterRegion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC3422C5-0697-4041-BC27-0AE0C07D34BD - 8ab7440e1a763e89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "752">
+               </Location>
+               <Location
+                  uuid = "EC3422C5-0697-4041-BC27-0AE0C07D34BD - 8ab7440e1a763e2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "EC3422C5-0697-4041-BC27-0AE0C07D34BD - 8ab7440e1a763ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeofencingDemo.ViewController.locationManager(_: __C.CLLocationManager, didEnterRegion: __C.CLRegion) -&gt; ()"
+                  moduleName = "GeofencingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/2327066/Documents/GitHub/LocationGeofencing/GeofencingDemo/GeofencingDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AA6E97E-C22A-4510-A38D-E653F14B8F67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeofencingDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "locationManager(_:didEnterRegion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C963EE6-2FC3-4B91-B480-D971BA6F8C6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeofencingDemo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
