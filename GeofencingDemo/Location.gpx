@@ -9,8 +9,17 @@
         <time>2014-09-24T14:55:45Z</time>
     </wpt>
     
-    <wpt lat="37.336105" lon="-122.000029">
-        <name>N Tantau Ave</name>
-        <time>2014-09-24T14:55:50Z</time>
-    </wpt>
+    <wpt lat="37.33102000" lon="-122.03073800">
+           <name>Waypoint 1</name>
+           <time>2014-09-24T14:55:50Z</time>
+       </wpt>
+       <wpt lat="37.33065100" lon="-122.03074800">
+           <name>Waypoint 2</name>
+           <time>2014-09-24T14:55:55Z</time>
+       </wpt>
+       <wpt lat="37.33028300" lon="-122.03075900">
+           <name>Waypoint 3</name>
+           <time>2014-09-24T14:56:00Z</time>
+       </wpt>
 </gpx>
+
