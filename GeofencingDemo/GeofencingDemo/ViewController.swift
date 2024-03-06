@@ -84,14 +84,15 @@ extension ViewController: CLLocationManagerDelegate {
         if isAppTerminated {
             scheduleLocalNotification(message: "App Terminated Still receieving callbacks", needToRepeat: true)
         }
-        
-        func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-            if isAppTerminated {
-                scheduleLocalNotification(message: "App Terminated, getting error", needToRepeat: true)
-                
-            }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        if isAppTerminated {
+            scheduleLocalNotification(message: "App Terminated, getting error", needToRepeat: true)
+            
         }
     }
+
 }
 
 // METHODS
